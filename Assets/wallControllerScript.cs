@@ -98,7 +98,6 @@ public class wallControllerScript : MonoBehaviour
             g.GetComponent<SpriteRenderer>().enabled = false;
             if(c <= health) g.GetComponent<SpriteRenderer>().enabled = true;
             c++;
-
         }
     }
 
